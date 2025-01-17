@@ -19,7 +19,7 @@ a {
 }
 
 nav {
-    background-color: #4a7457;
+    background-color: #a76d4d;
     display: flex;
     justify-content: space-between;
     padding: 0 3.125rem;
@@ -29,7 +29,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #4a7457;
+    background-color: #a76d4d;
     backdrop-filter: blur(5px);
 }
 
@@ -61,16 +61,16 @@ section {
     text-align: center;
     gap: 2rem;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: #a76d4d;
 }
 
 section:nth-of-type(odd) {
-    background-color: #ACAD94;
+    background-color: #d9cbae;
     /* Light gray for odd sections */
 }
 
 section:nth-of-type(even) {
-    background-color: #ACAD94;
+    background-color: #d9cbae;
     /* White for even sections */
 }
 
@@ -89,7 +89,7 @@ section h2::after {
     position: absolute;
     width: 100px;
     height: 4px;
-    background-color: #4a7457;
+    background-color: #a76d4d;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -121,7 +121,7 @@ section h2::after {
     margin-top: 1rem;
     margin-bottom: 37px;
     border-radius: 50%;
-    box-shadow: 0 10px 20px #4a7457;
+    box-shadow: #a76d4d;
 }
 
 #about-section .headshot img {
@@ -161,12 +161,12 @@ section h2::after {
 }
 
 #about-section .social-links a:hover i {
-    color: #4a7457;
+    color: #a76d4d;
     transform: scale(1.2);
 }
 
 #about-section .social-links i {
-    color: #4a7457;
+    color: #a76d4d;
     font-weight: 500;
 }
 
@@ -221,7 +221,7 @@ section h2::after {
     border-radius: 0.5rem;
     padding: 1rem;
     background-color: #f9f9f9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: #a76d4d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     /* Smooth transition for scaling */
 }
@@ -229,7 +229,7 @@ section h2::after {
 .project-box:hover {
     transform: scale(0.95);
     /* Grow the box slightly on hover */
-    box-shadow: 0 6px 12px #4a7457;
+    box-shadow: 0 6px 12px #a76d4d;
 }
 
 .project-box img {
@@ -254,7 +254,7 @@ section h2::after {
 .project-box p {
     font-size: 1rem;
     font-weight: 300;
-    color: #494a4a;
+    color: #a76d4d;
 }
 
 /* Skills Section */
@@ -284,7 +284,7 @@ section h2::after {
 
 #skills-section i {
     font-size: 3rem;
-    color: #4a7457;
+    color: #a76d4d;
     transition: transform 0.3s ease, color 0.3s ease;
     margin: 1rem 0;
     /* Add margin to ensure proper spacing */
@@ -292,7 +292,7 @@ section h2::after {
 
 #skills-section i:hover {
     transform: scale(1.2);
-    color: #4a7457;
+    color: #a76d4d;
 }
 
 /* Leave a Message Section */
@@ -315,7 +315,7 @@ section h2::after {
 
 #leave-message-section p {
     font-size: 1.25rem;
-    color: #555;
+    color: #000000;
     max-width: 600px;
     line-height: 1.6;
 }
