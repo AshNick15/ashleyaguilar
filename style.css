@@ -54,7 +54,6 @@ nav .right a:hover {
 section {
     padding: 8rem 2rem;
     min-height: 80vh;
-    /* Reduce the default minimum height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,12 +65,10 @@ section {
 
 section:nth-of-type(odd) {
     background-color: #d9cbae;
-    /* Light gray for odd sections */
 }
 
 section:nth-of-type(even) {
     background-color: #d9cbae;
-    /* White for even sections */
 }
 
 /* Section Heading Styles */
@@ -199,7 +196,6 @@ section h2::after {
 .project-subsection {
     width: 100%;
     margin-bottom: 4rem;
-    /* Add space between subsections */
 }
 
 .projects-scroll-container {
@@ -209,13 +205,11 @@ section h2::after {
     width: 100%;
     max-width: 1600px;
     overflow-x: auto;
-    /* Allow horizontal scrolling if needed */
     margin: 0 auto;
 }
 
 .project-box {
     flex: 0 0 16rem;
-    /* Fixed width for the boxes */
     text-align: center;
     border: 1px solid #d7dbd8;
     border-radius: 0.5rem;
@@ -223,7 +217,6 @@ section h2::after {
     background-color: #f9f9f9;
     box-shadow: #a76d4d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    /* Smooth transition for scaling */
 }
 
 .project-box:hover {
@@ -265,7 +258,6 @@ section h2::after {
     align-items: center;
     text-align: center;
     gap: 2rem;
-    /* Add gap between elements */
 }
 
 #skills-section h2 {
@@ -279,18 +271,14 @@ section h2::after {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    /* Add gap between icons */
 }
 
-#skills-section i {
-    font-size: 3rem;
-    color: #a76d4d;
-    transition: transform 0.3s ease, color 0.3s ease;
-    margin: 1rem 0;
-    /* Add margin to ensure proper spacing */
+.skill-icon {
+    width: 8rem;
+    height: auto;
 }
 
-#skills-section i:hover {
+#skills-section img:hover {
     transform: scale(1.2);
     color: #a76d4d;
 }
@@ -451,4 +439,12 @@ section h2::after {
         padding: 3rem 1rem;
         /* Adjust padding for smaller screens */
     }
+}
+
+footer {
+    background-color: #a76d4d;
+    color: #d9cbae;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.875rem;
 }
