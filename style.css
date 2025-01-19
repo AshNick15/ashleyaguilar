@@ -144,29 +144,19 @@ section h2::after {
     font-weight: 300;
 }
 
-#about-section .social-links {
-    font-size: 2.25rem;
+.social-icon-img {
+    width: 5rem;
+    /* Adjust the size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    transition: transform 0.3s ease;
+    /* Smooth transition for the hover effect */
 }
 
-#about-section .social-links a {
-    padding: 0;
-    margin: 0 0.75rem;
+.social-icon-img:hover {
+    transform: scale(1.1);
+    /* Scale the image up by 10% on hover */
 }
-
-#about-section .social-links a i {
-    transition: transform 0.3s, color 0.3s;
-}
-
-#about-section .social-links a:hover i {
-    color: #a76d4d;
-    transform: scale(1.2);
-}
-
-#about-section .social-links i {
-    color: #a76d4d;
-    font-weight: 500;
-}
-
 
 /* Projects Section */
 #projects-section {
